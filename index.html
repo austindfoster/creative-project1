@@ -11,7 +11,9 @@
 </head>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="/index.html">Navbar</a>
+  <a class="navbar-brand" href="/index.html">
+    MacBook
+  </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -23,26 +25,114 @@
         <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/page1.html">Page 1</a>
+        <a class="nav-link" href="/pages/features.html">Features</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/page2.html">Page 2</a>
+        <a class="nav-link" href="/pages/specs.html">Specs</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/page3.html">Page 3</a>
+        <a class="nav-link" href="/pages/purchase.html">Buy</a>
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
-    </form>
   </div>
 </nav>
 
-
-
 <body>
-  Home
+
+  <br>
+  <div class="center">
+    <h1>MacBook Air</h1>
+  </div>
+  <br>
+  <div class="center top-image">
+    <img src="/images/macbook6.png" alt="">
+  </div>
+  <div class="row one-two-grid">
+    <div class="block center" style="display: flex;flex-direction: column;
+    background-image: url('/images/batteries.jpg');object-fit: cover;background-position: center;">
+      <img src="/images/battery.svg" alt="" height="200px">
+      <h1 style="text-align: center;">18-hour Battery</h1>
+    </div>
+    <div class="block center" 
+    style="background-image: url('/images/fan.png');object-fit: cover;background-position: center;">
+      <img src="/images/air_white_24dp.svg" alt="" style="max-height: 150px;">
+      <h1>No Fan, No Noise, Just Air</h1>
+    </div>
+  </div>
+  <div class="row two-one-grid">
+    <div class="block center"
+      style="background-image: url('/images/m1 chip.jpg');object-fit: cover;background-position: center;opacity: 85%;
+      justify-content: flex-end;padding: 30px;">
+      <h1>Built Powerful</h1>
+    </div>
+    <div class="block center" style="background-image: url('/images/ethernet-cable.jpg');
+    object-fit: cover;background-position: center;opacity: 85%;
+    display: flex;flex-direction: column;">
+      <img src="/images/wifi_white_24dp.svg" alt="" style="height: 200px;">
+      <h1>WiFi 6</h1>
+      <p>up to 1.2Gb/s throughput</p>
+    </div>
+  </div>
+  <div class="row one-one-grid">
+    <div class="block center">
+      <h1>$999 Starting Price</h1>
+    </div>
+    <div class="block center" style="text-align: center;">
+      <img src="/images/apple-logo-transparent-png-10.png" alt="" style="max-width: 150px;">
+      <h1>macOs <br>Operating System</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="center block" style="width: 100%;background-image: url('/images/student.jpg');
+    object-fit: fill;background-position: center;opacity: 95%;
+    display: flex;flex-direction: column;">
+      <h1 style="text-align: center;">"Perfect for any student, developer, or artist"</h1>
+      <h1 style="justify-content: flex-end; text-align: right;">- PC Mag</h1>
+    </div>
+  </div>
+  <div class="center">
+    <div style="display: flex;flex-direction: row;justify-content: space-around;width: 70%;">
+      <a href="/pages/features.html" style="text-decoration: none;color: white;">
+        <div class="trio">
+          <div class="v-align spread">
+            <img src="/images/checklist_white_24dp.svg" alt="Features">
+            <h2>Features</h2>
+          </div>
+        </div>
+      </a>
+      <a href="/pages/specs.html" style="text-decoration: none;color: white;">
+        <div class="trio">
+          <div class="v-align spread">
+            <img src="/images/memory_white_24dp.svg" alt="Specs">
+            <h2>Specs</h2>
+          </div>
+        </div>
+      </a>
+      <a href="/pages/purchase.html" style="text-decoration: none;color: white;">
+        <div class="trio">
+          <div class="v-align spread">
+            <img src="/images/attach_money_white_24dp.svg" alt="Buy">
+            <h2>Buy</h2>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  <br>
+  <div class="footer">
+    <div id="github" class="center">
+      <a class="darken" href="https://github.com/austindfoster/creative-project1" style="text-decoration: none;">
+        <svg height="32" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32" data-view-component="true"
+          class="octicon octicon-mark-github v-align-middle">
+          <path fill-rule="evenodd"
+            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+          </path>
+        </svg>
+        Github
+      </a>
+    </div>
+  </div>
+  <br>
 </body>
 
 </html>

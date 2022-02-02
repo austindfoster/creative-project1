@@ -1,3 +1,134 @@
 body {
+  background-color: #222;
+  color: white;
+  width: 100%;
+}
+
+.bg-dark{
+  background-color: #111 !important;
+}
+
+.h-align {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 100%;
+}
+
+hr {
+  height: 1px;
+  width: 75%;
+  background-color: white;
+}
+
+.v-align {
+  display: flex;
+  flex-direction: column;
+}
+
+.center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.row {
+  height: 25em;
+  margin: 2% 1%;
+}
+
+.trio {
+  display: flex;
+  flex-direction: row;
+  height: 500px;
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+  border-color: blue;
+  border-radius: 50px;
+  border-style: groove;
+}
+
+.trio:hover {
+  border-color: cyan;
+  background-color: rgb(12, 12, 12);
+  height: 102%;
+  width: 320px;
+}
+
+.spread {
+  width: 75%;
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 50px;
+}
+
+.darken {
+  fill: white;
+  color: white;
+}
+
+.darken:hover {
+  fill: #aaa;
+  color: #aaa;
+}
+
+.one-one-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.one-two-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.two-one-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.one-one-one-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.four-block-grid {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+
+.block {
+  border-style: groove;
+  border-color: blue;
+  border-radius: 50px;
+  margin-left: 2%;
+  margin-right: 2%;
+  height: 96%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.block:hover {
+  margin: 0%;
+  height: 100%;
+  border-color: rgb(0, 119, 255);
+  color: white;
+  text-decoration: none;
   background-color: #111;
+}
+
+.button:hover {
+  background-color: cyan;
 }
